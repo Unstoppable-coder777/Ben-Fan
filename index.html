@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ben 10 Gallery</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#omni").show().delay(5000).fadeOut();
+		});
+		
+		$(document).ready(function(){
+		  $("#navbar").click(function(){
+		    $(".img-container").fadeToggle(2000);
+		  });
+		});
+	</script>
+	<!-- <script type="text/javascript" charset="utf-8">
+	  function dark(){
+	    var clicky = document.body;
+	    clicky.classList.toggle('darky')
+	  }
+	</script> -->
+</head>
+<body>
+	<div id="omni">
+	<div class="container">
+		<div class="omnitrix"></div>
+		<br>
+		<div class="load">
+			<div class="loader"></div>
+		</div>
+	</div>
+    </div>
+	<!--Header Section-->
+	<header>
+		<nav>
+			<!-- <div class="logo">Logo</div> -->
+			<span id="trix" class="logo">
+				<!-- <span id="benfan">BenFan</span> -->
+			</span>
+			<input type="checkbox" name="check" id="chk">
+			<label for="chk">
+				<img src="icon/m.png" alt="nav-bar" id="navbar" onclick="dark()">
+			</label>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="coming_soon.html">More Pictures</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--Main Section-->
+	<div class="ccontainer">
+		<h1 class="title">Ben 10 Gallery</h1>
+		<div class="img-container">
+			<img src="ben/1.jpg" alt="">
+			<img src="ben/2.jpg" alt="">
+			<img src="ben/3.jpg" alt="">
+			<img src="ben/4.jpg" alt="">
+			<img src="ben/5.jpg" alt="">
+			<img src="ben/6.jpg" alt="">
+			<img src="ben/7.jpg" alt="">
+			<img src="ben/8.jpg" alt="">
+			<img src="ben/9.jpg" alt="">
+			<img src="ben/10.jpg" alt="">
+			<img src="ben/11.jpg" alt="">
+			<img src="ben/12.jpg" alt="">
+			<img src="ben/13.jpg" alt="">
+			<img src="ben/14.jpg" alt="">
+			<!-- <img src="ben/15.jpg" alt=""> -->
+			<img src="ben/16.jpg" alt="">
+			<img src="ben/17.jpg" alt="">
+			<img src="ben/18.jpg" alt="">
+			<img src="ben/19.jpg" alt="">
+			<img src="ben/20.jpg" alt="">
+			<img src="ben/21.jpg" alt="">
+			<img src="ben/22.jpg" alt="">
+			<img src="ben/23.jpg" alt="">
+			<img src="ben/24.jpg" alt="">
+			<img src="ben/25.jpg" alt="">
+			<img src="ben/26.jpg" alt="">
+			<img src="ben/27.jpg" alt="">
+			<img src="ben/28.jpg" alt="">
+			<img src="ben/29.jpg" alt="">
+			<img src="ben/30.jpg" alt="">
+			<img src="ben/31.jpg" alt="">
+			<img src="ben/32.jpg" alt="">
+			<img src="ben/33.jpg" alt="">
+			<img src="ben/34.jpg" alt="">
+			<img src="ben/35.jpg" alt="">
+			<img src="ben/36.jpg" alt="">
+			<img src="ben/37.jpg" alt="">
+			<img src="ben/38.jpg" alt="">
+			<img src="ben/39.jpg" alt="">
+			<img src="ben/40.jpg" alt="">
+			<img src="ben/41.jpg" alt="">
+			<img src="ben/42.jpg" alt="">
+		</div>
+	</div>
+	<!--End Main-->
+	</body>
+	</html>
